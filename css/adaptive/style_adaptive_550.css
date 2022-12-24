@@ -1,0 +1,10 @@
+/*-------550px---------*/
+
+@media (max-width:550px) {
+    .first_marketing_img_wrapper {
+        display: none;
+    }
+    .btn_min_mod {
+        font-size: 11px;
+    }
+}

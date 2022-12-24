@@ -1,0 +1,657 @@
+/*-------1600px---------*/
+
+@media (max-width:1605px) {
+    /*------------------------*/
+    /*-------------Общие стили блоков---------------------------------*/
+    .btn_blue,
+    .btn_white,
+    .btn_min_mod {
+        padding: 2% 3%;
+        border-radius: 1vw;
+    }
+    /*----------------------------------*/
+    /*заголовки и тексты*/
+    .st_h2 {
+        font-size: 36px;
+    }
+    .st_h3 {
+        font-size: 26px;
+    }
+    .st_h4 {
+        font-size: 20px;
+    }
+    .st_p {
+        font-size: 16px;
+    }
+    .block_1530_white {
+        width: 90%;
+        padding: 100px 0;
+    }
+    .block_100_gray {
+        width: 100%;
+        padding: 100px 0;
+    }
+    .block_1530_gray {
+        width: 90%;
+    }
+    /*------------------------*/
+    /*------------------хедер---desctop---------------*/
+    .header_desctop {
+        height: max-content;
+        padding: 5px 0;
+    }
+    .header_wrapper {
+        width: 90%;
+    }
+    /*логотип*/
+    .logo_header {
+        width: 16%;
+        height: 70%;
+        padding: 0;
+    }
+    /*блок навигации*/
+    .header_nav {
+        width: 50%;
+        height: 30%;
+        gap: 6%;
+    }
+    /**/
+    .btn_header_form {
+        padding: 1% 1.5%;
+    }
+    /*--------------------------------------------------*/
+    /*------------------блок контент-------------------*/
+    main {
+        padding-top: 10%;
+    }
+    /*комментарий автора*/
+    /*синий*/
+    .sign_blue,
+    .sign_white {
+        width: max-content;
+        height: max-content;
+        top: -22%;
+        font-size: 60px;
+    }
+    .text_sign_blue,
+    .text_sign_white {
+        font-size: 16px;
+    }
+    /*--1секция--*/
+    .first_marketing_wrapper {
+        width: 95%;
+        margin: 0 auto;
+        height: max-content;
+        padding: 120px 0 120px 6%;
+        border-radius: 4vw;
+        align-items: center;
+    }
+    .first_marketing {
+        display: flex;
+        flex-direction: column;
+    }
+    .first_marketing_img_wrapper {
+        left: unset;
+        right: 1px;
+        top: -20px;
+        height: 500px;
+        border-radius: 4vw;
+        margin-left: auto;
+    }
+    .first_marketing_img_wrapper img {
+        width: 700px;
+        height: 400px;
+    }
+    /*текст*/
+    .section_1_h1 {
+        width: 520px;
+        font-size: 48px;
+    }
+    .first_marketing h4 {
+        width: 520px;
+        margin-top: 30px;
+    }
+    .first_marketing p {
+        width: 520px;
+        margin-top: 49px;
+    }
+    /*комментарий*/
+    .first_marketing_comment {
+        left: 48%;
+        top: -60px;
+        padding: 2.5% 3%;
+        gap: 1%;
+        border-radius: 0px 40px 40px 40px;
+    }
+    .text_sign_white {
+        width: 42vw !important;
+    }
+    /*--2 секция -- характеристики курса--*/
+    .block_info_tech {
+        width: 85%;
+        margin: 120px auto 0;
+    }
+    .info_tech_1 {
+        width: 21%;
+    }
+    .info_tech_2 {
+        justify-content: center;
+        width: 25%;
+    }
+    .info_tech_3 {
+        width: 40%;
+    }
+    .info_tech_num {
+        margin-right: 3%;
+        font-size: 57px;
+        line-height: 60px;
+    }
+    .num_infinity {
+        font-size: 60px;
+        margin-top: 0;
+        padding-bottom: 2%;
+        line-height: 60px;
+    }
+    .info_tech_line {
+        height: 50px;
+        margin: 0 1%;
+    }
+    /*--3 секция -- характеристики курса--*/
+    .tasks_analyst {
+        width: 47%;
+    }
+    .tasks_analyst_examples {
+        padding: 5% 3% 5% 5%;
+        width: 47%;
+    }
+    .tasks_analyst p {
+        width: 100%;
+    }
+    .tasks_analyst h2 {
+        margin-bottom: 5%;
+    }
+    /*блок примеров*/
+    .tasks_analyst_examples p {
+        width: 100%;
+        margin-top: 5%;
+    }
+    /*--4 секция -- для кого курс--*/
+    .course_for_wrapper h2 {
+        width: 100%;
+        height: max-content;
+        margin-bottom: 6%;
+    }
+    .course_for {
+        gap: 2%;
+    }
+    /*отдельные блоки*/
+    .course_for_block,
+    .acquired_skills_block {
+        width: 28%;
+        padding: 3%;
+        border-radius: 2vw;
+    }
+    .course_for_num {
+        width: 38px;
+        height: 38px;
+        top: -20px;
+    }
+    .course_for_block p,
+    .acquired_skills_block p {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .course_for_block_3 {
+        margin-bottom: 0 !important;
+    }
+    /*5 блок краткий модуль программы*/
+    .short_module_wrapper {
+        width: 75%;
+        margin: 9% auto;
+    }
+    .short_module_p_h5 {
+        margin-top: 3%;
+    }
+    /*краткий модуль*/
+    .short_module {
+        height: max-content;
+        margin: 6% auto;
+        padding: 5% 4% 1% 6%;
+    }
+    /*кнопки модуля*/
+    .short_module_btn_wrapper {
+        width: 48%;
+    }
+    .short_module_btn {
+        width: 100%;
+        height: max-content;
+        margin-bottom: 10%;
+    }
+    .short_module_btn img {
+        margin-left: 3%;
+        height: 2vh;
+    }
+    .short_module_btn_5 {
+        margin-bottom: 0;
+    }
+    .short_module_comment {
+        padding: 4% 5%;
+    }
+    .btn_min_mod {
+        padding: 3% 5%;
+        text-align: start;
+    }
+    /*текст модуля*/
+    .module_text {
+        width: 48%;
+    }
+    .module_text p {
+        margin-top: 4%;
+    }
+    /*6 блок приемущества*/
+    .block_group_advantages {
+        width: 90%;
+        grid-template-columns: 30% 30% 30%;
+    }
+    /*стилизация блока с папкой*/
+    .advantages {
+        width: 100%;
+        height: 200px;
+    }
+    .folder_advantages {
+        width: 115px;
+        height: 76px;
+    }
+    .advantages p {
+        margin-top: 5%;
+    }
+    /*----7 приемущества курса----*/
+    .photo {
+        width: 45%;
+        height: auto;
+        margin-right: 4%;
+    }
+    .personal_history_content {
+        width: 51%;
+        padding-top: 4%;
+    }
+    .post {
+        margin-top: 5%;
+        margin-bottom: 8%
+    }
+    .personal_history_comment {
+        padding: 5% 4% 5% 8%;
+    }
+    /*раскрывающиеся блоки*/
+    .personal_history_block {
+        width: 100%;
+        min-height: 100%;
+        padding: 4% 3%;
+    }
+    /*раскрывающийся список*/
+    .personal_history_block li {
+        margin-left: 5%;
+    }
+    /*---8 --блок что получаешь от курса---*/
+    .acquired_skills_block_3 {
+        margin-bottom: 0 !important;
+    }
+    .acquired_skills {
+        gap: 2%;
+    }
+    .wrapper_heading_block h2 {
+        width: 55%;
+        margin-right: 4%;
+    }
+    .acquired_skills_comment {
+        width: 45%;
+        padding: 3% 3%;
+    }
+    /*9 что вы получите от курса*/
+    .stage_transform_wrapper h2 {
+        margin-bottom: 3%;
+    }
+    .stage_transform_block {
+        margin: 4% auto;
+    }
+    .transform_text {
+        width: 50%;
+    }
+    .transform_text ul {
+        margin-top: 3%;
+        margin-left: 4%;
+        width: 96%;
+        height: max-content;
+    }
+    .transform_img {
+        width: 45%;
+        margin-left: 2%;
+    }
+    .transform_img img {
+        width: 100%;
+        height: 100%;
+    }
+    /*2блок*/
+    .stage_transform_block_2 img {
+        height: 100%;
+    }
+    /*-----<!--10 блок вакансии-->----*/
+    .job_heading h2 {
+        width: 56%;
+        margin-right: 3%;
+    }
+    .job_heading p {
+        width: 41%;
+    }
+    /*примеры вакансий*/
+    .job_examples_wrapper {
+        width: 90%;
+        padding: 2% 0;
+        margin: 5% auto 0;
+    }
+    .slide_job_examples img {
+        width: 560px;
+    }
+    /**/
+    /*----11 статистика откликов------*/
+    .response_statistics_heading_block h2 {
+        margin-right: 4%;
+    }
+    /*контент*/
+    .response_statistics_content_group {
+        margin-top: 5%;
+    }
+    .statistics_block_wrapper_1 .statistics_block {
+        width: 33%
+    }
+    .statistics_block_wrapper_2 .statistics_block {
+        width: 48%
+    }
+    .statistics_block p {
+        width: 90%;
+    }
+    .response_tech_num {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .response_statistics_comment {
+        padding: 2% 2% 2% 40px;
+        width: 40%;
+    }
+    .statistics_block img {
+        width: 150px;
+        height: 150px;
+    }
+    /*<!--круговой прогресс бар-->*/
+    .frame {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 12%;
+    }
+    .circle-big svg {
+        width: 155px;
+        height: 155px;
+    }
+    .circle-big .bg {
+        stroke-width: 15px;
+        cx: 78;
+        cy: 80;
+        r: 68;
+    }
+    .circle-big .progress {
+        stroke-width: 15px;
+        cx: 75;
+        cy: 78;
+        r: 68;
+    }
+    /*---12 трудоустройство----*/
+    .employment_heading_block,
+    .bonus_heading_block {
+        margin: 0 auto 7%;
+    }
+    .employment_heading_block h3,
+    .bonus_heading_block h3 {
+        margin-bottom: 3%;
+    }
+    /*группа блоков */
+    .employment_group,
+    .bonus_group {
+        width: 100%;
+        margin: 0;
+    }
+    .employment,
+    .bonus {
+        width: 20%;
+        padding: 4% 2%;
+    }
+    .employment_lable {
+        padding: 1% 6%;
+        left: 30%;
+        top: -8%;
+    }
+    .employment p,
+    .bonus p {
+        width: 100%;
+    }
+    /*Трудоустроенных выпускников*/
+    .employment_number_arranged {
+        width: max-content;
+        height: max-content;
+        padding: 2.5% 4%;
+        left: 55%;
+        bottom: -8%;
+    }
+    .arranged_num {
+        margin-right: 5%;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    /*--<!--13 программа обучения-->--*/
+    .training_program_wrapper h2 {
+        margin-bottom: 8%;
+    }
+    /*кнопки*/
+    .training_program_btn_group {
+        width: 49%;
+        height: 650px;
+        row-gap: 2%;
+        column-gap: 4%;
+    }
+    .training_program_btn {
+        width: 48%;
+    }
+    /*текст*/
+    /*меняем текс в блоке через JS*/
+    .training_program_text {
+        width: 49%;
+        height: max-content;
+        padding: 6%;
+    }
+    .training_program_text h3 {
+        margin-bottom: 4%;
+    }
+    .training_program_text h4 {
+        margin-bottom: 3%;
+    }
+    .training_program_skills {
+        margin-bottom: 4%;
+    }
+    .training_program_themes {
+        margin-left: 4%;
+    }
+    /*----14 ---бонус-----*/
+    /*основные в стиде в 12 блоке*/
+    .bonus_lable {
+        width: 15px;
+        height: 35px;
+        border-radius: 50%;
+        left: 7%;
+        top: -32px;
+    }
+    .bonus_lable img {
+        width: 25px;
+        height: 25px;
+    }
+    .lable_special {
+        box-sizing: border-box;
+        padding: 0px;
+        padding-left: 30%;
+        padding-right: 5%;
+        gap: 10%;
+        width: 90%;
+        height: 55px;
+        left: 7%;
+    }
+    /*---<!--15 тарифы-->---*/
+    .rate_wrapper h2 {
+        margin-bottom: 5%;
+    }
+    /*контент таблицы*/
+    /*формат ячеек*/
+    td,
+    th {
+        width: 15%;
+        padding: 2%;
+    }
+    /*шапка таблицы*/
+    .head_table_rate {
+        width: 100%;
+    }
+    .first_td_rate {
+        width: 38%;
+    }
+    .th_rate {
+        width: 20%;
+        height: max-content;
+        padding: 2.2% 2%;
+    }
+    /*выделяющийся заголовок таблицы*/
+    .th_rate_2 {
+        padding: 4% 2%;
+    }
+    /*---*/
+    .th_rate h4 {
+        margin-bottom: 4%;
+    }
+    .th_rate h3 {
+        margin-bottom: 8%;
+    }
+    .btn_td_rate {
+        width: max-content;
+        height: max-content;
+        padding: 5% 7%;
+    }
+    /*---*/
+    /*---<!--16 отзывы-->---*/
+    .reviews_wrapper {
+        padding: 70px 0;
+    }
+    .reviews_wrapper h2 {
+        margin-bottom: 7%;
+    }
+    .reviews_group {
+        width: 90%;
+        gap: unset;
+        justify-content: space-between;
+    }
+    .reviews {
+        width: 32%;
+        gap: 20px;
+    }
+    /*<!--17 форма отправки начать бесплатно-->*/
+    .form_free_wrapper {
+        padding: 5% 4%;
+        margin: 100px auto 0;
+        justify-content: center;
+    }
+    /*текст*/
+    .form_free_text {
+        width: 40%;
+        margin-right: 0px;
+    }
+    .form_free_text h2 {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .form_free_text p {
+        width: 90%;
+        margin-bottom: 3%;
+    }
+    /*форма отправки*/
+    .form_free_input_wrapper {
+        width: 57%;
+    }
+    /*кнопки переключения*/
+    .form_free_btn_group {
+        margin-bottom: 40px;
+        justify-content: space-around;
+    }
+    .form_free_btn {
+        width: 30%;
+        font-size: 95%;
+        margin: 0;
+        padding: 10px 5px;
+    }
+    /*инпуты*/
+    .input_free_order {
+        margin-left: 5%;
+        margin-bottom: 50px;
+    }
+    /*кнопка отправки*/
+    .btn_form_order_free {
+        margin-left: 5%;
+    }
+    /*блок сообщения отправлено или нет*/
+    .free_form_message_show {
+        width: max-content;
+    }
+    #free_form_message_show_1 {
+        top: 44%;
+        left: 20%;
+    }
+    #free_form_message_show_2 {
+        top: 75%;
+        left: 23%;
+    }
+    #free_form_message_show_3 {
+        top: 90%;
+        left: 50%;
+    }
+    /*----<!--18 вопросы-->----*/
+    .questions_group {
+        width: 80%;
+    }
+    .questions {
+        width: 100%;
+        padding: 25px 30px;
+    }
+    /*--------------------------------------------------*/
+    /*-----footer-------*/
+    .footer_wrapper {
+        width: 90%;
+    }
+    /**/
+    .footer_questions {
+        width: 40%;
+        margin-right: 12%;
+    }
+    /**/
+    .footer_label {
+        margin-right: 5%;
+        width: max-content;
+    }
+    /**/
+    .footer_privacy {
+        margin-right: 3%;
+    }
+    /**/
+    .footer_terms_use {
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    /*--------------------------------------------*/
+    /*----попап--question---*/
+    /*окно с сообщением отправки*/
+    /*----------------------------------------*/
+    /*-----кнопка-стрелка вверх------*/
+}

@@ -1,0 +1,370 @@
+/*-------1000px---------*/
+
+@media (max-width:1005px) {
+    /*------------------------*/
+    /*-------------Общие стили блоков---------------------------------*/
+    .btn_blue,
+    .btn_white,
+    .btn_min_mod {
+        font-size: 12px;
+    }
+    /*кнопка плюс-минус*/
+    .btn_plus,
+    .btn_minus {
+        min-width: 30px;
+        max-width: 30px;
+        height: 30px;
+    }
+    /*кнопка вращалка*/
+    .btn_plus::before,
+    .btn_minus::before {
+        margin-left: -6.4px;
+        width: 12.6px;
+    }
+    .btn_plus::after {
+        margin-left: -6.4px;
+        width: 12.6px;
+    }
+    .btn_minus::after {
+        margin-left: -6.4px;
+        width: 12.6px;
+    }
+    /*----------------------------------*/
+    /*заголовки и тексты*/
+    .st_h2 {
+        font-size: 26px;
+    }
+    .st_h3 {
+        font-size: 20px;
+    }
+    .st_h4 {
+        font-size: 16px;
+    }
+    .st_p {
+        font-size: 12px;
+    }
+    .block_1530_white {
+        padding: 80px 0;
+    }
+    .block_100_gray {
+        padding: 80px 0;
+    }
+    /*------------------------*/
+    /*------------------хедер---desctop---------------*/
+    /*логотип*/
+    .logo_header {
+        font-size: 18px;
+    }
+    /*--------------------------------------------------*/
+    /*------------------блок контент-------------------*/
+    main {
+        padding-top: 12%;
+    }
+    /*комментарий автора*/
+    .blue_comment,
+    .white_comment {
+        border-radius: 0px 20px 20px 20px;
+    }
+    .sign_blue,
+    .sign_white {
+        top: -40%;
+        font-size: 40px;
+    }
+    .text_sign_blue,
+    .text_sign_white {
+        font-size: 12px;
+    }
+    /*--1секция--*/
+    .first_marketing_wrapper {
+        padding: 0px 0 40px 5%;
+        border-radius: 6vw;
+    }
+    .first_marketing_img_wrapper {
+        top: 68px;
+        height: 450px;
+    }
+    .first_marketing_img_wrapper img {
+        left: 50px;
+        top: -50px;
+        height: 350px;
+    }
+    /*текст*/
+    .section_1_h1 {
+        width: 460px;
+        font-size: 40px;
+    }
+    .first_marketing h4 {
+        width: 460px;
+        margin-top: 26px;
+    }
+    .first_marketing p {
+        width: 460px;
+        margin-top: 34px;
+    }
+    .btn_1_section_wrapper {
+        margin-top: 34px;
+        column-gap: 28px;
+    }
+    /*комментарий*/
+    .first_marketing_comment {
+        border-radius: 0px 20px 20px 20px;
+    }
+    .text_sign_white {
+        width: 40vw !important;
+    }
+    /*--2 секция -- характеристики курса--*/
+    .block_info_tech {
+        margin: 80px auto 0;
+    }
+    .info_tech_num {
+        margin-right: 5%;
+        font-size: 45px;
+        line-height: 48px;
+    }
+    .num_infinity {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .info_tech_line {
+        height: 6vh;
+    }
+    .info_tech_text {
+        font-size: 11px;
+    }
+    /*--3 секция -- характеристики курса--*/
+    .tasks_analyst {
+        width: 49%;
+    }
+    .tasks_analyst_examples {
+        padding: 4% 3% 4% 5%;
+        width: 45%;
+    }
+    /*--4 секция -- для кого курс--*/
+    .course_for_num {
+        width: 34px !important;
+        height: 34px;
+        left: 20px;
+    }
+    /*5 блок краткий модуль программы*/
+    .short_module_wrapper {
+        width: 85%;
+    }
+    .short_module_comment .text_sign_blue {
+        font-size: 11px;
+    }
+    /*6 блок приемущества*/
+    /*стилизация блока с папкой*/
+    .advantages {
+        margin-top: 50px;
+        height: 120px;
+    }
+    .folder_advantages {
+        width: 90px;
+        min-height: 56px;
+        max-height: 56px;
+    }
+    .advantages img {
+        width: 28px;
+        height: 28px;
+    }
+    /*---8 --блок что получаешь от курса---*/
+    .wrapper_heading_block {
+        margin-bottom: 80px;
+    }
+    .wrapper_heading_block h2 {
+        width: 60%;
+        font-size: 26px;
+        margin-right: 2%;
+    }
+    /*-----<!--10 блок вакансии-->----*/
+    .slide_job_examples img {
+        width: 420px;
+    }
+    /*----11 статистика откликов------*/
+    .statistics_block_wrapper_1 {
+        width: 90%;
+    }
+    .statistics_block_wrapper_2 {
+        width: 60%;
+        margin-top: 30px;
+    }
+    /*---12 трудоустройство----*/
+    .employment_lable {
+        padding: 3% 6%;
+        top: -7%;
+        font-size: 14px;
+        height: max-content;
+    }
+    .employment h4,
+    .bonus h4 {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    /*Трудоустроенных выпускников*/
+    .employment_number_arranged {
+        left: 60%;
+    }
+    .arranged_num {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    /*--<!--13 программа обучения-->--*/
+    .training_program_btn_group {
+        height: 450px;
+    }
+    /*----14 ---бонус-----*/
+    /*основные в стиде в 12 блоке*/
+    .bonus_lable {
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        top: -15px;
+    }
+    .bonus_lable img {
+        width: 15px;
+        height: 15px;
+    }
+    .lable_special {
+        font-size: 10px;
+        padding-left: 40px;
+        height: 35px;
+        top: -15px;
+        border-radius: 40px;
+    }
+    /*---<!--15 тарифы-->---*/
+    .th_rate {
+        padding: 1.5% 2%;
+    }
+    /*---*/
+    .th_rate h4 {
+        margin-bottom: 1%;
+        font-size: 12px;
+    }
+    .th_rate h3 {
+        margin-bottom: 4%;
+        font-size: 16px;
+    }
+    .btn_td_rate {
+        padding: 3% 7%;
+    }
+    /*выделяющийся заголовок таблицы*/
+    .th_rate_2 {
+        border-radius: 20px;
+    }
+    .th_rate_2 h3 {
+        margin-bottom: 6%;
+    }
+    .th_rate_2 h4 {
+        margin-bottom: 4%;
+    }
+    /*---*/
+    .th_rate_1 {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .th_rate_3 {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    /*значки в таблице*/
+    .table_label_check_mark {
+        width: 25px;
+        height: 25px;
+    }
+    .table_label_check_mark img {
+        width: 13px;
+        height: 13px;
+    }
+    /*<!--17 форма отправки начать бесплатно-->*/
+    /*текст*/
+    .form_free_text {
+        width: 32%;
+    }
+    .form_free_text h2 {
+        font-size: 20px;
+        margin-bottom: 4%;
+    }
+    /*форма отправки*/
+    .form_free_input_wrapper {
+        width: 60%;
+    }
+    /*кнопки переключения*/
+    .form_free_btn {
+        font-size: 65%;
+        padding: 10px 2px;
+        border-radius: unset;
+    }
+    /*инпуты*/
+    .input_free_order {
+        width: 250px;
+        height: 40px;
+    }
+    /*----<!--18 вопросы-->----*/
+    .questions_wrapper h2 {
+        margin-bottom: 40px;
+    }
+    .questions_training_wrapper,
+    .questions_doubts_wrapper,
+    .questions_payment_wrapper {
+        margin-bottom: 40px;
+    }
+    .questions_wrapper h3 {
+        width: 30%;
+        margin-top: 12px;
+    }
+    .questions_group {
+        width: 70%;
+    }
+    .questions {
+        padding: 15px 30px 10px;
+    }
+    /*--------------------------------------------------*/
+    /*-----footer-------*/
+    .footer_label {
+        display: none;
+    }
+    .footer_questions_btn {
+        padding: 4% 6%;
+    }
+    .footer_a a {
+        font-size: 11px;
+    }
+    /**/
+    .footer_terms_use {
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    /*--------------------------------------------*/
+    /*----попап--question---*/
+    .popup_question {
+        padding: 40px;
+    }
+    .popup_question_btn_close {
+        width: 38px;
+        height: 38px;
+    }
+    .popup_question_btn_close img {
+        width: 15px;
+        height: 15px;
+    }
+    .popup_question h3 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .popup_question_btn_group .form_free_btn {
+        font-size: 14px;
+    }
+    /*политика конфиденциальности */
+    .popup_privacy {
+        font-size: 10px;
+    }
+    /*----------------------------------------*/
+    /*-----кнопка-стрелка вверх------*/
+    /*кнопка прокрутки*/
+    /*----значок стрелки--*/
+    .up_btn {
+        width: 44px;
+        height: 44px;
+    }
+    /**/
+}

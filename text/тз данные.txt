@@ -1,0 +1,14 @@
+цвета:
+white - #ffffff
+black - #1c1c1c - 
+gray - #828287 - темно серый
+smoky - #F3F4F8 - дымчато белый
+denim_blue - #276BF0 - светлый джинсовый
+cornflower- #5289F3 - васильковый
+lavender- #DFE6FA - Лавандовый
+
+тексты
+шрифты
+GetVioP Grotesque
+Open sans
+

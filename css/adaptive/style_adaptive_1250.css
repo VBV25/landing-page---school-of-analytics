@@ -1,0 +1,37 @@
+/*-------1250px---------*/
+
+@media (max-width:1250px) {
+    /*---8 --блок что получаешь от курса---*/
+    .wrapper_heading_block h2 {
+        width: 60%;
+        margin-right: 0%;
+        font-size: 32px;
+    }
+    .acquired_skills_comment {
+        width: 40%;
+        padding: 3% 2% 3% 3%;
+    }
+    .text_sign_blue {
+        font-size: 15px;
+    }
+    /*9 что вы получите от курса*/
+    .transform_img img {
+        max-height: 70%;
+    }
+    /*<!--17 форма отправки начать бесплатно-->*/
+    /*текст*/
+    .form_free_text h2 {
+        font-size: 30px;
+    }
+    /*форма отправки*/
+    .form_free_btn {
+        width: 32%;
+        font-size: 85%;
+        padding: 10px 2px;
+    }
+    /*--------------------------------------------------*/
+    /*-----footer-------*/
+    .footer_terms_use {
+        font-size: 11px;
+    }
+}
