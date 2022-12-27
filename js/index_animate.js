@@ -61,8 +61,8 @@ $(function() {
 //
 //
 
-/*скролл страницы вверх*/
 $(document).ready(function() {
+    /*скролл страницы вверх*/
     //hide #back-top farst (скрыть #назад-верхний фарст)
     $('#back-top').fadeOut();
     //fade in#back-top (исчезает в#back-top)
@@ -330,10 +330,19 @@ $(document).ready(function() {
 
 /*-----------------анимации----------------------*/
 
+/**/
 var block_show2 = false;
-var block_show4 = false;
+/**/
+var block_show4_1 = false;
+var block_show4_2 = false;
+var block_show4_3 = false;
+/** */
 var block_show6 = false;
-var block_show8 = false;
+/**/
+var block_show8_1 = false;
+var block_show8_2 = false;
+var block_show8_3 = false;
+/** */
 var block_show11 = false;
 var block_show12 = false;
 var block_show14 = false;
@@ -344,18 +353,19 @@ function scrollTracking2() {
     if (block_show2) {
         return false;
     }
-    //
+    /*--*/
     var wt2 = $(window).scrollTop(); //определяет расстояние прокрутки
     var wh2 = $(window).height();
     var dh2 = $(document).height();
+    /*----------*/
+    var et2 = $('.info_tech_num').offset().top; //определяет расстояние от верха страницы до нашего блока
+    var eh2 = $('.info_tech_num').outerHeight();
 
-    var et2 = $('.block_info_tech').offset().top; //определяет расстояние от верха страницы до нашего блока
-    var eh2 = $('.block_info_tech').outerHeight();
-
+    /*-----*/
     if (wt2 + wh2 >= et2 || wh2 + wt2 == dh2 || eh2 + et2 < wh2) {
         block_show2 = true;
         setTimeout(function() {
-            $('.info_tech_num_1').each(function() {
+            $('.info_tech_num').each(function() {
                 var $this = $(this),
                     countTo = $this.attr('data-count');
 
@@ -380,8 +390,9 @@ function scrollTracking2() {
 }
 
 //4блок
-function scrollTracking4() {
-    if (block_show4) {
+
+function scrollTracking4_1() {
+    if (block_show4_1) {
         return false;
     }
     //
@@ -389,22 +400,61 @@ function scrollTracking4() {
     var wh4 = $(window).height();
     var dh4 = $(document).height();
 
-    var et4 = $('.activate_animate_4').offset().top;
-    var eh4 = $('.activate_animate_4').outerHeight();
+    var et4_1 = $('.course_for_block_1').offset().top;
+    var eh4_1 = $('.course_for_block_1').outerHeight();
 
-    if (wt4 + wh4 >= et4 || wh4 + wt4 == dh4 || eh4 + et4 < wh4) {
-        block_show4 = true;
-
-        $('.course_for_block_1').css({ opacity: '1' });
+    if (wt4 + wh4 >= et4_1 || wh4 + wt4 == dh4 || eh4_1 + et4_1 < wh4) {
+        block_show4_1 = true;
+        console.log('11111');
 
         setTimeout(function() {
-            $('.course_for_block_2').css({ opacity: '1' });
+            $('.course_for_block_1').css({ opacity: '1' });
         }, 1000);
-        setTimeout(function() {
-            $('.course_for_block_3').css({ opacity: '1' });
-        }, 2000);
     }
 }
+
+function scrollTracking4_2() {
+    if (block_show4_2) {
+        return false;
+    }
+    //
+    var wt4 = $(window).scrollTop();
+    var wh4 = $(window).height();
+    var dh4 = $(document).height();
+
+    var et4_2 = $('.course_for_block_2').offset().top;
+    var eh4_2 = $('.course_for_block_2').outerHeight();
+
+    if (wt4 + wh4 >= et4_2 || wh4 + wt4 == dh4 || eh4_2 + et4_2 < wh4) {
+        block_show4_2 = true;
+        console.log('222222');
+        setTimeout(function() {
+            $('.course_for_block_2').css({ opacity: '1' });
+        }, 1200);
+    }
+}
+
+function scrollTracking4_3() {
+    if (block_show4_3) {
+        return false;
+    }
+    //
+    var wt4 = $(window).scrollTop();
+    var wh4 = $(window).height();
+    var dh4 = $(document).height();
+
+    var et4_3 = $('.course_for_block_3').offset().top;
+    var eh4_3 = $('.course_for_block_3').outerHeight();
+
+    if (wt4 + wh4 >= et4_3 || wh4 + wt4 == dh4 || eh4_3 + et4_3 < wh4) {
+        block_show4_2 = true;
+        console.log('33333');
+        setTimeout(function() {
+            $('.course_for_block_3').css({ opacity: '1' });
+        }, 1400);
+    }
+}
+
 //6 блок
 function scrollTracking6() {
     if (block_show6) {
@@ -415,8 +465,8 @@ function scrollTracking6() {
     var wh6 = $(window).height();
     var dh6 = $(document).height();
 
-    var et6 = $('.advantages_6').offset().top;
-    var eh6 = $('.advantages_6').outerHeight();
+    var et6 = $('.advantages_1').offset().top;
+    var eh6 = $('.advantages_1').outerHeight();
 
     if (wt6 + wh6 >= et6 || wh6 + wt6 == dh6 || eh6 + et6 < wh6) {
         block_show6 = true;
@@ -441,14 +491,76 @@ function scrollTracking6() {
     }
 }
 //8 блок
-function scrollTracking8() {
-    if (block_show8) {
+function scrollTracking8_1() {
+    if (block_show8_1) {
         return false;
     }
     //
     var wt8 = $(window).scrollTop();
     var wh8 = $(window).height();
     var dh8 = $(document).height();
+
+    var et8_1 = $('.acquired_skills_block_1').offset().top;
+    var eh8_1 = $('.acquired_skills_block_1').outerHeight();
+
+    if (wt8 + wh8 >= et8_1 || wh8 + wt8 == dh8 || eh8_1 + et8_1 < wh8) {
+        block_show8_1 = true;
+        console.log('81');
+
+        setTimeout(function() {
+            $('.acquired_skills_block_1').css({ opacity: '1' });
+        }, 1000);
+    }
+}
+
+function scrollTracking8_2() {
+    if (block_show8_2) {
+        return false;
+    }
+    //
+    var wt8 = $(window).scrollTop();
+    var wh8 = $(window).height();
+    var dh8 = $(document).height();
+    var et8_2 = $('.acquired_skills_block_2').offset().top;
+    var eh8_2 = $('.acquired_skills_block_2').outerHeight();
+
+    if (wt8 + wh8 >= et8_2 || wh8 + wt8 == dh8 || eh8_2 + et8_2 < wh8) {
+        block_show8_2 = true;
+        console.log('82');
+
+        setTimeout(function() {
+            $('.acquired_skills_block_2').css({ opacity: '1' });
+        }, 1200);
+    }
+}
+
+function scrollTracking8_3() {
+    if (block_show8_3) {
+        return false;
+    }
+    //
+    var wt8 = $(window).scrollTop();
+    var wh8 = $(window).height();
+    var dh8 = $(document).height();
+    var et8_3 = $('.acquired_skills_block_3').offset().top;
+    var eh8_3 = $('.acquired_skills_block_3').outerHeight();
+
+    if (wt8 + wh8 >= et8_3 || wh8 + wt8 == dh8 || eh8_3 + et8_3 < wh8) {
+        block_show8_3 = true;
+        console.log('83');
+
+        setTimeout(function() {
+            $('.acquired_skills_block_3').css({ opacity: '1' });
+        }, 1400);
+    }
+}
+/*
+function scrollTracking8() {
+    if (block_show8) {
+        return false;
+    }
+    //
+    
 
     var et8 = $('.activate_animate_8').offset().top;
     var eh8 = $('.activate_animate_8').outerHeight();
@@ -465,7 +577,7 @@ function scrollTracking8() {
             $('.acquired_skills_block_3').css({ opacity: '1' });
         }, 2000);
     }
-}
+}*/
 //11 блок
 function scrollTracking11() {
     if (block_show11) {
@@ -571,9 +683,17 @@ function scrollTracking14() {
 
 $(window).scroll(function() {
     scrollTracking2();
-    scrollTracking4();
+    /** */
+    scrollTracking4_1();
+    scrollTracking4_2();
+    scrollTracking4_3();
+    /** */
     scrollTracking6();
-    scrollTracking8();
+    /** */
+    scrollTracking8_1();
+    scrollTracking8_2();
+    scrollTracking8_3();
+    /** */
     scrollTracking11();
     scrollTracking12();
     scrollTracking14();
@@ -582,9 +702,17 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
     scrollTracking2();
-    scrollTracking4();
+    /** */
+    scrollTracking4_1();
+    scrollTracking4_2();
+    scrollTracking4_3();
+    /** */
     scrollTracking6();
-    scrollTracking8();
+    /** */
+    scrollTracking8_1();
+    scrollTracking8_2();
+    scrollTracking8_3();
+    /** */
     scrollTracking11();
     scrollTracking12();
     scrollTracking14();

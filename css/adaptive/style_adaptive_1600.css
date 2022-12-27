@@ -141,7 +141,9 @@
     .info_tech_3 {
         width: 40%;
     }
-    .info_tech_num {
+    .info_tech_num,
+    .info_tech_num_6,
+    .info_tech_num_6 p {
         margin-right: 3%;
         font-size: 57px;
         line-height: 60px;

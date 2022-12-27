@@ -88,7 +88,9 @@
         width: max-content;
         border-bottom: 3px solid var(--color-denim_blue);
     }
-    .info_tech_num {
+    .info_tech_num,
+    .info_tech_num_6,
+    .info_tech_num_6 p {
         margin-right: 10%;
     }
     .num_infinity {

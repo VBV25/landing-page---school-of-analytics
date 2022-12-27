@@ -107,7 +107,9 @@
     .info_tech_3 {
         width: 45%;
     }
-    .info_tech_num {
+    .info_tech_num,
+    .info_tech_num_6,
+    .info_tech_num_6 p {
         font-size: 38px;
         line-height: 40px;
     }
