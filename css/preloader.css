@@ -1,10 +1,9 @@
-/*@font-face {
+@font-face {
     font-family: 'GetVoIP Grotesque Regular';
     font-style: normal;
     font-weight: normal;
     src: local('GetVoIP Grotesque Regular'), url('../fonts/GetVoIP Grotesque.woff') format('woff');
 }
-*/
 
 
 /*------------------прелоадер------------------*/
@@ -25,7 +24,7 @@
 }
 
 .wrap_preloader h2 {
-    font-family: sans-serif;
+    font-family: 'GetVoIP Grotesque Regular', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 500%;
@@ -34,7 +33,7 @@
 }
 
 .wrap_preloader h3 {
-    font-family: sans-serif;
+    font-family: 'GetVoIP Grotesque Regular', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 300%;
@@ -51,7 +50,7 @@
 }
 
 .preload_text p {
-    font-family: sans-serif;
+    font-family: 'GetVoIP Grotesque Regular', sans-serif;
     font-style: normal;
     font-weight: 400;
     width: max-content;

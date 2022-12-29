@@ -20,7 +20,7 @@ $(document).ready(function() {
             }, 280);
         }, 285);
 
-        $('#wrap_preloader').delay(300).fadeToggle(2000);
+        $('#wrap_preloader').delay(3000).fadeToggle(300);
 
         setTimeout(function() {
             clearInterval(timerId);
