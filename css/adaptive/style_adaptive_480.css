@@ -258,8 +258,10 @@
     .form_free_wrapper {
         border-radius: 30px;
     }
+    /**/
     .form_free_btn {
         height: 70px;
+        border-radius: unset;
     }
     .form_free_input input {
         width: 80%;

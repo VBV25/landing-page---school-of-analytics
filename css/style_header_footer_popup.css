@@ -120,22 +120,6 @@ button:focus {
 }
 
 
-/*псевдокнопка*/
-
-
-/*
-.btn_white_ps {
-    width: 400px;
-    height: 60px;
-    cursor: auto;
-}
-
-.btn_white_ps:hover {
-    background: var(--color-white);
-}
-*/
-
-
 /*кнопка плюс-минус*/
 
 .btn_plus,

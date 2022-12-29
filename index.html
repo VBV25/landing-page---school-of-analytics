@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---------------стили------------------>
+
+
+    <!---------------библиотека----JQUERY----------------------->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <!------прелоадер------------>
+    <script src="js/preloader.js"></script>
+    <link rel="stylesheet" href="css/preloader.css" />
+
+
+
+    <!-------------------------стили--------------------------->
+    <!--шрифты-->
     <link rel="stylesheet" href="css/style_fonts.css" />
+    <!--основные-->
     <link rel="stylesheet" href="css/style_header_footer_popup.css" />
-
     <link rel="stylesheet" href="css/style.css" />
-
     <!--адаптивность-->
     <link rel="stylesheet" href="css/adaptive/style_adaptive_1600.css" />
     <link rel="stylesheet" href="css/adaptive/style_adaptive_1250.css" />
@@ -19,25 +30,33 @@
     <link rel="stylesheet" href="css/adaptive/style_adaptive_550.css" />
     <link rel="stylesheet" href="css/adaptive/style_adaptive_480.css" />
     <link rel="stylesheet" href="css/adaptive/style_adaptive_360.css" />
-    <!----------------------------------->
+    <!---------------------------------------------------------->
 
-    <!-------------скрипты--JQUERY------------->
+    <!----------------------скрипты--JQUERY--------------------->
     <!--библиотеки-->
-    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <!--прочие-->
-    <script src="js/form.js"></script>
-
     <script src="js/index_animate.js"></script>
-
-
-    <!-------------------------------------->
+    <script src="js/form.js"></script>
+    <!--------------------------------------------------------->
 
     <title>Школа Кулешова</title>
 </head>
 
 <body>
-
+    <!--preloader-->
+    <div class="wrap_preloader" id='wrap_preloader'>
+        <h3>Школа Кулешова</h3>
+        <h2>Школа <br> Бизнес-аналитики</h2>
+        <div class=" preload_text">
+            <p>Идет загрузка</p>
+            <p class="t1">.</p>
+            <p class="t2">.</p>
+            <p class="t3">.</p>
+            <p class="t4">.</p>
+        </div>
+    </div>
+    <!---->
     <header class="header_desctop">
         <div class="header_wrapper">
             <div class="st_h4 logo_header">Школа<br>Кулешова </div>
@@ -193,7 +212,6 @@
                 </div>
             </div>
         </section>
-        <div class="activate_animate_4"></div>
         <!--5 краткий модуль-->
         <section class="short_module_wrapper">
             <h3 class="st_h3">Обучение построено так, что ты пошагово получишь<br>практические навыки и технологии для работы бизнес-аналитиком</h3>
@@ -382,7 +400,7 @@
                     </div>
                 </div>
             </div>
-            <div class="activate_animate_8"></div>
+
         </section>
 
         <!--9 трансформация-->
@@ -403,7 +421,7 @@
                         <li>Не чувствуешь уверенность в своих знаниях и что получится реально<br>устроиться бизнес-аналитиком в топовые компании</li>
                     </ul>
                 </div>
-                <div class="st_p transform_img"><img src="img/illustration2.png" alt=""> Твои знания в бизнес-аналитике до курса</div>
+                <div class="st_p transform_img"><img src="img/illustration2.png" alt=""> Твои знания в бизнес-аналитике до курса<span class="stage_transform_span"></span></div>
             </div>
             <div class="stage_transform_block stage_transform_block_2">
                 <div class="transform_text">
@@ -591,7 +609,7 @@
                 </div>
 
             </div>
-            <div class="activate_animate_11"></div>
+
         </section>
         <!--12 трудоустройство-->
         <section class="block_100_gray employment_wrapper">
@@ -661,7 +679,7 @@
                 </div>
                 <div class="training_program_text">
                     <h3 class=" st_h3" id="training_program_h3">Модуль 1. Excel</h3>
-                    <h4 class="st_h4">Чему научишься:</h4>
+                    <h4 class="st_h4 ">Чему научишься:</h4>
                     <p class=" st_p training_program_skills" id="training_program_skills">
                         В этом модуле ты научишься работать в Excel и изучишь большое количество инструментов для вычисления и обработки данных, а также научишься строить автоматизированные отчёты.
                         <br><br> Кстати, после этого модуля ты сможешь применять эти навыки на своей текущей работе, потому что любую работу можно автоматизировать
@@ -682,6 +700,7 @@
                         <li id="training_program_themes_10">Функция И и ИЛИ</li>
                         <li id="training_program_themes_11">Рабочее задание</li>
                     </ul>
+                    <span class="training_program_span"></span>
 
                 </div>
             </div>
@@ -729,7 +748,7 @@
 
                 </div>
             </div>
-            <div class="activate_animate_14"></div>
+
         </section>
         <!--15 тарифы-->
 
@@ -798,7 +817,7 @@
                 <!---->
                 <!--3строка-->
                 <tr>
-                    <td class="st_p first_td_rate">Материалы (видео,статьи и шпаргалки)</td>
+                    <td class="st_p first_td_rate ">Материалы (видео,статьи и шпаргалки)</td>
                     <td>
                         <div class="table_label_check_mark">
                             <img src="img/mark.svg" alt="mark">
@@ -996,7 +1015,9 @@
                     </td>
                 </tr>
                 <!---->
+
             </table>
+
             <div class="rate_wrapper_mobile">
                 <div class="rate_mobile">
                     <h4 class="st_h4">Базовый</h4>
@@ -1011,6 +1032,7 @@
                     </p>
                     <div class="btn_blue btn_td_rate btn_td_rate_1">Выбрать тариф</div>
                 </div>
+                <span class="td_rate_anchor"></span>
                 <div class="rate_mobile rate_mobile_blue">
                     <h4 class="st_h4">С поддержкой</h4>
                     <h3 class="st_h3">15 000 ₽</h3>
@@ -1030,6 +1052,7 @@
                     <div class="btn_blue btn_td_rate  btn_td_rate_3">Выбрать тариф</div>
                 </div>
             </div>
+            <span class="td_rate_anchor"></span>
         </section>
         <!--16 отзывы-->
 
