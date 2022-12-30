@@ -562,6 +562,7 @@ footer {
 /*----попап--question---*/
 
 .pop_up_question_wrapper {
+    box-sizing: border-box;
     z-index: 100;
     display: none;
     position: fixed;
@@ -575,6 +576,7 @@ footer {
 }
 
 .popup_question {
+    box-sizing: border-box;
     position: relative;
     width: max-content;
     height: max-content;

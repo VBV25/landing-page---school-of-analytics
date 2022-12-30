@@ -1,0 +1,114 @@
+/*----------------*/
+
+@media (max-height:770px) {
+    /*----попап--question---*/
+    .popup_question {
+        box-sizing: border-box;
+        width: 90%;
+        height: 95%;
+        padding: 10px 10px;
+    }
+    .popup_question h3 {
+        width: 80%;
+        font-size: 150%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .popup_question_btn_group {
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+    .popup_question_input_wrapper {
+        width: 80%;
+    }
+    .popup_question .form_free_btn {
+        flex: grow 1;
+        /*width: 20%;*/
+        height: max-content;
+        font-size: 80%;
+        border-radius: 0px;
+        border-bottom: 2px;
+    }
+    .popup_question input {
+        height: max-content;
+        padding: 5px;
+        margin: 0 auto;
+        margin-bottom: 0px !important;
+        text-align: center;
+        border: 1px solid var(--color-cornflower);
+    }
+    .popup_privacy {
+        font-size: 8px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    /*----------------------------------------*/
+}
+
+@media (max-height:550px) {
+    /*----попап--question---*/
+    .popup_question {
+        box-sizing: border-box;
+        width: 95%;
+        height: 100%;
+        padding: 20px 10px;
+    }
+    .popup_question h3 {
+        width: 95%;
+        font-size: 100%;
+        margin-bottom: 10px;
+    }
+    .popup_question_btn_group {
+        margin-bottom: 10px;
+    }
+    .popup_question .form_free_btn {
+        font-size: 70%;
+    }
+    .popup_question_input_wrapper {
+        width: 85%;
+    }
+    .popup_question input {
+        font-size: 12px;
+    }
+    .popup_question_btn_close {
+        top: 5px;
+        right: 20px;
+    }
+    .subscribe_btn {
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    /*----------------------------------------*/
+}
+
+@media (max-height:350px) {
+    .popup_question {
+        width: 95%;
+        height: 97%;
+        padding: 3px;
+    }
+    /*----попап--question---*/
+    .popup_question h3 {
+        width: 85%;
+        font-size: 70%;
+    }
+    .popup_question .form_free_btn {
+        font-size: 60%;
+    }
+    .popup_privacy {
+        font-size: 6px;
+        margin-bottom: 4px;
+    }
+    .popup_question_btn_close {
+        top: 5px;
+        right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .popup_question_btn_close img {
+        width: 10px;
+        height: 10px;
+    }
+    /*----------------------------------------*/
+}

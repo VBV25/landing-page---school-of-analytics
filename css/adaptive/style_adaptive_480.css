@@ -320,8 +320,8 @@
         border-radius: 0px;
     }
     .popup_question_btn_close {
-        top: 50px;
-        right: 20px;
+        top: 20px;
+        right: 15px;
         width: 40px;
         height: 40px;
     }

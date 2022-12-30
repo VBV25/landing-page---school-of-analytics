@@ -58,7 +58,7 @@ $(document).ready(function() {
         $('.pop_up_question_wrapper').css({ display: 'flex' });
         //заголовок
         $('.subscribe_h3').html(
-            'Запишись на курс<br>или задай вопрос<br>на консультации'
+            'Запишись на курс или задай вопрос на консультации'
         );
         //кнопка
         $('#btn_popup_subscribe_order').html('Записаться на курс');
@@ -67,7 +67,7 @@ $(document).ready(function() {
         $('.pop_up_question_wrapper').css({ display: 'flex' });
         //заголовок
         $('.subscribe_h3').html(
-            'Запишись на курс<br>или задай вопрос<br>на консультации'
+            'Запишись на курс или задай вопрос на консультации'
         );
         //кнопка
         $('#btn_popup_subscribe_order').html('Записаться на курс');
@@ -76,7 +76,7 @@ $(document).ready(function() {
     $('.footer_questions_btn').click(function() {
         $('.pop_up_question_wrapper').css({ display: 'flex' });
         //заголовок
-        $('.subscribe_h3').html('Задай вопрос<br>на консультации');
+        $('.subscribe_h3').html('Задай вопрос на консультации');
         //кнопка
         $('#btn_popup_subscribe_order').html('Задать вопрос');
     });
