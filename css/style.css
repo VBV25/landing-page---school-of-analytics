@@ -1530,27 +1530,27 @@ th {
 
 .circle-big-an .progress_1 {
     stroke-dashoffset: 210;
-    animation: big1 2.5s ease-in-out;
+    animation: big1 2.8s ease-in-out;
 }
 
 .circle-big-an .progress_2 {
     stroke-dashoffset: 770;
-    animation: big2 2.5s ease-in-out;
+    animation: big2 2.8s ease-in-out;
 }
 
 .circle-big-an .progress_3 {
     stroke-dashoffset: 790;
-    animation: big3 2.5s ease-in-out;
+    animation: big3 2.8s ease-in-out;
 }
 
 .circle-big-an .progress_4 {
     stroke-dashoffset: 825;
-    animation: big4 2.5s ease-in-out;
+    animation: big4 2.8s ease-in-out;
 }
 
 .circle-big-an .progress_5 {
     stroke-dashoffset: 835;
-    animation: big5 2.5s ease-in-out;
+    animation: big5 2.8s ease-in-out;
 }
 
 @keyframes big1 {

@@ -226,12 +226,12 @@
     }
     .short_module_btn {
         width: 100%;
-        height: max-content;
+        height: min-content;
         margin-bottom: 10%;
     }
     .short_module_btn img {
         margin-left: 3%;
-        height: 2vh;
+        height: 30px;
     }
     .short_module_btn_5 {
         margin-bottom: 0;

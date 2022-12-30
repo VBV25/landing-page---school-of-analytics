@@ -425,7 +425,7 @@ $(document).scroll(function() {
     }
     //---------------------------------------------------------------------------------
 
-    //----------------------------11 блок-------------------------
+    //----------------------------11 блок---кружки----------------------
     if (wt + wh >= et11 || wh + wt == dh || eh11 + et11 < wh) {
         $('.circle-big').addClass('circle-big-an');
         $('.response_num_1').each(function() {
@@ -437,7 +437,7 @@ $(document).scroll(function() {
                 },
 
                 {
-                    duration: 3000,
+                    duration: 2000,
                     easing: 'linear',
                     step: function() {
                         $this.text(Math.floor(this.countNum));
