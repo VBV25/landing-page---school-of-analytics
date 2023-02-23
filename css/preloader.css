@@ -23,6 +23,10 @@
     color: var(--color-white) !important;
 }
 
+.no-activ-prelod {
+    display: none;
+}
+
 .wrap_preloader h2 {
     font-family: 'GetVoIP Grotesque Regular', sans-serif;
     font-style: normal;

@@ -355,17 +355,17 @@ $(document).scroll(function() {
     if (wt + wh >= et4_1 || wh + wt == dh || eh4_1 + et4_1 < wh) {
         setTimeout(function() {
             $('.course_for_block_1').css({ opacity: '1' });
-        }, 1000);
+        }, 400);
     }
     if (wt + wh >= et4_2 || wh + wt == dh || eh4_2 + et4_2 < wh) {
         setTimeout(function() {
             $('.course_for_block_2').css({ opacity: '1' });
-        }, 1200);
+        }, 600);
     }
     if (wt + wh >= et4_3 || wh + wt == dh || eh4_3 + et4_3 < wh) {
         setTimeout(function() {
             $('.course_for_block_3').css({ opacity: '1' });
-        }, 1400);
+        }, 800);
     }
     //скрытие
     if (wt + wh >= et4_exd || wt + wh <= et4_exu) {
@@ -405,17 +405,17 @@ $(document).scroll(function() {
     if (wt + wh >= et8_1 || wh + wt == dh || eh8_1 + et8_1 < wh) {
         setTimeout(function() {
             $('.acquired_skills_block_1').css({ opacity: '1' });
-        }, 1000);
+        }, 400);
     }
     if (wt + wh >= et8_2 || wh + wt == dh || eh8_2 + et8_2 < wh) {
         setTimeout(function() {
             $('.acquired_skills_block_2').css({ opacity: '1' });
-        }, 1200);
+        }, 600);
     }
     if (wt + wh >= et8_3 || eh8_3 + et8_3 < wh) {
         setTimeout(function() {
             $('.acquired_skills_block_3').css({ opacity: '1' });
-        }, 1400);
+        }, 800);
     }
     //скрытие
     if (wt + wh >= et8_exd || wt + wh <= et8_exu) {
@@ -455,22 +455,22 @@ $(document).scroll(function() {
     if (wt + wh >= et12_1 || wh + wt == dh || eh12_1 + et12_1 < wh) {
         setTimeout(function() {
             $('.employment_1').css({ opacity: '1' });
-        }, 1000);
+        }, 400);
     }
     if (wt + wh >= et12_2 || wh + wt == dh || eh12_2 + et12_2 < wh) {
         setTimeout(function() {
             $('.employment_2').css({ opacity: '1' });
-        }, 1150);
+        }, 600);
     }
     if (wt + wh >= et12_3 || wh + wt == dh || eh12_3 + et12_3 < wh) {
         setTimeout(function() {
             $('.employment_3').css({ opacity: '1' });
-        }, 1300);
+        }, 800);
     }
     if (wt + wh >= et12_4 || wh + wt == dh || eh12_4 + et12_4 < wh) {
         setTimeout(function() {
             $('.employment_4').css({ opacity: '1' });
-        }, 1450);
+        }, 1000);
     }
     //скрыть
     if (wt + wh >= et12_exd || wt + wh <= et12_exu) {
@@ -486,22 +486,22 @@ $(document).scroll(function() {
     if (wt + wh >= et14_1 || wh + wt == dh || eh14_1 + et14_1 < wh) {
         setTimeout(function() {
             $('.bonus_1').css({ opacity: '1' });
-        }, 1000);
+        }, 400);
     }
     if (wt + wh >= et14_2 || wh + wt == dh || eh14_2 + et14_2 < wh) {
         setTimeout(function() {
             $('.bonus_2').css({ opacity: '1' });
-        }, 1150);
+        }, 600);
     }
     if (wt + wh >= et14_3 || wh + wt == dh || eh14_3 + et14_3 < wh) {
         setTimeout(function() {
             $('.bonus_3').css({ opacity: '1' });
-        }, 1300);
+        }, 800);
     }
     if (wt + wh >= et14_4 || wh + wt == dh || eh14_4 + et14_4 < wh) {
         setTimeout(function() {
             $('.bonus_4').css({ opacity: '1' });
-        }, 1450);
+        }, 1000);
     }
     //скрыть
     if (wt + wh >= et14_exd || wt + wh <= et14_exu) {
